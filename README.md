@@ -21,7 +21,7 @@ for file in MMXCore FastCore TextModel libiomp5.dylib libtbb.dylib libtbbmalloc.
         echo $FILE | grep libiomp5 >/dev/null
         if [[ $? == 0 ]]; then
             dir=$(dirname "$FILE")
-            [[ ! -f ${HOME}/libiomp5.dylib ]] && cd $HOME && curl -sO https://github.com/jericane1/Adobe-AMD-Fix/raw/main/libiomp5.dylib
+            [[ ! -f ${HOME}/libiomp5.dylib ]] && cd $HOME && curl -sO https://github.com/jericane1/Adobe-AMD-Fix/blob/6af3b1fcce74d8fb21a7656a107eb8466409ce8b/libiomp5.dylib
             echo -n "replacing " && sudo cp -vf ${HOME}/libiomp5.dylib $dir && echo
             rm -f ${HOME}/libiomp5.dylib
             continue
