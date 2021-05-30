@@ -99,61 +99,59 @@ fi
 2. Reboot macOS
 
 ### Application tested
->> Update on 18/05/2021
+>> Update on 30/05/2021
 
 Adobe products | Version | Works ? | M1 ? (armv8) | Comments
 ---------------|---------|---------|--------------|---------
 After Effects | 2021 v18.0 | :white_check_mark: | :x: | **No patch** Works, no additional command lines.
 After Effects | 2021 v18.1 | :white_check_mark: | :x: | **No patch** Works, no additional command lines.
-:new: After Effects | 2021 v18.2 | :question: | :question: | ???
+:new: After Effects | 2021 v18.2 | :white_check_mark: | :x: | **No patch** Works, no additional command lines.
 Animate | 2021 v21.0.4 | :white_check_mark: | :x: | Works.
 Animate | 2021 v21.0.5 | :white_check_mark:| :x: | **No patch*** Works, but Adobe ID ask login & password.
-:new: Animate | 2021 v21.0.6 | :question:| :question: | ???
+:new: Animate | 2021 v21.0.6 | :white_check_mark:| :x: | **No patch*** Works, but Adobe ID ask login & password.
 Audition | 2021 v14.0 | :white_check_mark: | :x: | **No patch** Works, no additional command lines.
 Audition | 2021 v14.1 | :white_check_mark: | :x: | **No patch** Works, no additional command lines.
-:new: Audition | 2021 v14.2 | :question: | :question: | ????
+:new: Audition | 2021 v14.2 | :white_check_mark: | :white_check_mark: | **No patch** Works, no additional command lines.
 Bridge | 2021 v11.0 | :white_check_mark: | :x: | Works.
 Bridge | 2021 v11.0.1 + CR 13.1 | :white_check_mark: | :x: | Works.
 Bridge | 2021 v11.0.2 + CR 13.2 | :x: | :x: | On ignition, not start. Maybe it's Zii 6.1.0 rubbish ? With Adobe Creative Cloud, works perfectly.
 Character Animator | 2020 v3.5 | :white_check_mark: | :x: | Works.
 Character Animator | 2020 v4.0 | :white_check_mark: | :x: | **No patch** Works.
-:new: Character Animator | 2021 v4.2 | :question: | :question: | ????
+:new: Character Animator | 2021 v4.2 | :white_check_mark: | :x: | **No patch** Works.
 Dimension | v3.4.1 | :white_check_mark: | :x: | Works.
-:new: Dimension | v3.4.2 | :question: | :question: | ????
+:new: Dimension | v3.4.2 | :white_check_mark: | :x: | Works.
 Dreamweaver | 2020 v20.2.1 | :white_check_mark: | :x: | Works.
 Dreamweaver | 2021 v21.1 | :white_check_mark: | :x: | Works.
 Illustrator | 2021 v25.1 | :white_check_mark:| :x: | Works, no additional command lines.
 Illustrator | 2021 v25.2.0 | :x:| :x: | Illustrator works well but the Zii 6.x patch (with Big Sur) is really screwing up ... the application crashes right away. The Zii 6.x patch needs updating.
 Illustrator | 2021 v25.2.1 | :white_check_mark:| :x: | **No patch** Works, no additional command lines.
-:new: Illustrator | 2021 v25.2.3 | :question: | :question: | ????
+:new: Illustrator | 2021 v25.2.3 | :white_check_mark:| :x: | **No patch** Works, no additional command lines.
 InCopy | 2021 v16.0.2 | :white_check_mark: | :x: | Works perfectly, no additional command lines.
 InCopy | 2021 v16.1 | :white_check_mark: | :x: | Works perfectly, no additional command lines.
-:new: InCopy | 2021 v16.2 | :question: | :question: | ????
+:new: InCopy | 2021 v16.2 | :white_check_mark: | :x: | Works perfectly, no additional command lines.
 InDesign | 2021 v16.0.2 | :white_check_mark: | :x: | Works, but "Open" doesn't work, no command lines. We need to do more research.
 InDesign | 2021 v16.1 | :white_check_mark: | :x: | Works perfectly, no additional command lines.
-:new: InDesign | 2021 v16.2.1 | :question: | :question: | ????
+:new: InDesign | 2021 v16.2.1 | :white_check_mark: | :x: | Works perfectly, no additional command lines.
 Lightroom Classic | v10.1 | :white_check_mark: | :x: | Works but you absolutely **Block Little Snitch or LuLu.**
 Lightroom Classic | v10.1.1 |  :white_check_mark: | :x: | Works you absolutely **Block Little Snitch or LuLu.**
-Lightroom Classic | v10.2 | :interrobang: | :x: | Works perfectly, but Camera Raw doesn't work.
+Lightroom Classic | v10.2 | :interrobang: | :x: | Works perfectly, **but Camera Raw doesn't work.**
 Media Encoder | 2021 v15.0 | :white_check_mark: | :x: | **No patch** Works perfectly, no additional command lines.
 Media Encoder | 2021 v15.1 | :white_check_mark: | :x: | **No patch** Works perfectly, no additional command lines.
-:new: Media Encoder | 2021 v15.2 | :question: | :question: | ????
-Photoshop | 2020 v21.2.3 | :white_check_mark: | :x: | Works.
-Photoshop | 2020 v21.2.5 | :white_check_mark: | :x: | Works.
-Photoshop | 2021 v22.0, v22.1, v22.1.1, v22.2, v22.3, **v22.3.1** | :interrobang: | :white_check_mark: | Works  ... but it crashes all the time. We need to do more research for a patch. **No patch** Intel CPU : Works a charm. AMD CPU : Launch properly but crash all times.
-:new: Photoshop | 2021 v22.4 | :question: | :white_check_mark: | ????
+:new: Media Encoder | 2021 v15.2 | :white_check_mark: | :x: | **No patch** Works perfectly, no additional command lines.
+Photoshop | 2020 v21.2.3, v21.2.5 | :white_check_mark: | :x: | Works.
+:new: Photoshop | 2021 v22.0, v22.1, v22.1.1, v22.2, v22.3, v22.3.1, **v22.4** | :x::interrobang: | :white_check_mark: | Works  ... but it crashes all the time. We need to do more research for a patch. **No patch** Intel CPU : Works a charm. AMD CPU : Launch properly but crash all times.
 Prelude | 2020 v9.0.3 | :white_check_mark: | :x: | Works.
 Prelude | 2021 v10.0 | :white_check_mark: | :question: | **No patch** Works.
 Premiere Pro | 2021 v15.0 | :white_check_mark: | :x: | **No patch** Works perfectly, no additional command lines.
 Premiere Pro | 2021 v15.1 | :white_check_mark: | :x: | **No patch** Works perfectly, no additional command lines.
-:new: Premiere Pro | 2021 v15.2 | :question: | :question: | ????
+:new: Premiere Pro | 2021 v15.2 | :white_check_mark: | :x: | **No patch** Works perfectly, no additional command lines.
 Premiere Rush | v1.5.50 | :white_check_mark: | :x: | **No patch** Works.
 Premiere Rush | v1.5.54 | :white_check_mark: | :x: | **No patch** Works.
-:new: Premiere Rush | v1.5.58 | :question: | :question: | ????
+:new: Premiere Rush | v1.5.58 | :white_check_mark: | :white_check_mark: | **No patch** Works.
 XD | v36.2.32 | :white_check_mark: | :x: | **Block Little Snitch or LuLu.** Works, no additional command lines.
 XD | v38.0.12 | :white_check_mark: | :x: | **Block Little Snitch or LuLu.** Works, no additional command lines.
 XD | v39.0.12 | :white_check_mark: | :x: | **Block Little Snitch or LuLu.** Works, no additional command lines.
-:new: XD | v40.0.22 | :question: | :question: | ?????
+:new: XD | v40.0.22 | :white_check_mark: | :x: | **Block Little Snitch or LuLu.** Works, no additional command lines.
 > Maybe the others need to be well controlled to be sure. Comments should help me! Thank you !
 
 ### Notes
