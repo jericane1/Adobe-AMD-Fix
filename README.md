@@ -129,26 +129,26 @@ fi
 2. Reboot macOS
 
 ### Application tested
->> Update on 08/08/2021
+>> Update on 19/08/2021
 
 Adobe products | Version | Works ? | M1 ? (armv8) | Comments
 ---------------|---------|---------|--------------|---------
 After Effects | 2021 v18.2 | :white_check_mark: | :x: | **No patch** Works, no additional command lines.
 After Effects | 2021 v18.2.1 | :white_check_mark: | :x: | **No patch** Works, no additional command lines.
-:new: After Effects | 2021 v18.4 | :question: | :x: | ???
+:new: After Effects | 2021 v18.4 | :white_check_mark: | :x: | **No patch** Works, no additional command lines.
 Animate | 2021 v21.0.5 | :white_check_mark:| :x: | **No patch** Works, but Adobe ID ask login & password.
 Animate | 2021 v21.0.6 | :white_check_mark:| :x: | **No patch** Works, but Adobe ID ask login & password.
 Animate | 2021 v21.0.7 | :white_check_mark:| :x: | **No patch** Works, but Adobe ID ask login & password.
 Audition | 2021 v14.1 | :white_check_mark: | :x: | **No patch** Works, no additional command lines.
 Audition | 2021 v14.2 | :white_check_mark: | :white_check_mark: | **No patch** Works, no additional command lines.
-:new: Audition | 2021 v14.4 | :question: | :white_check_mark: | **Apple Sillicon M1 works** ???
+:new: Audition | 2021 v14.4 | :white_check_mark: | :white_check_mark: |  **Apple Sillicon M1 works** ; **No patch** Works, no additional command lines. 
 Bridge | 2021 v11.0 | :white_check_mark: | :x: | Works.
 Bridge | 2021 v11.0.1 + CR 13.1 | :white_check_mark: | :x: | Works.
 Bridge | 2021 v11.0.2 + CR 13.2 | :x: | :x: | **Zii problem !** On ignition, not start. Maybe it's Zii 6.1.0 rubbish ? With Adobe Creative Cloud, works perfectly.
 Bridge | 2021 v11.1 + CR 13.3 | :white_check_mark: | :x: | Works. (Bridge & Camera Raw)
 Character Animator | 2020 v4.0 | :white_check_mark: | :x: | **No patch** Works.
 Character Animator | 2021 v4.2 | :white_check_mark: | :x: | **No patch** Works.
-:new: Character Animator | 2021 v4.4 | :question: | :white_check_mark: | **Apple Sillicon M1 works** ???
+:new: Character Animator | 2021 v4.4 | :white_check_mark: | :white_check_mark: | **Apple Sillicon M1 works** Works.
 Dimension | v3.4.1 | :white_check_mark: | :x: | Works.
 Dimension | v3.4.2 | :white_check_mark: | :x: | Works.
 Dimension | v3.4.3 | :white_check_mark: | :x: | Works. 
@@ -157,7 +157,7 @@ Dreamweaver | 2021 v21.1 | :white_check_mark: | :x: | Works.
 Illustrator | 2021 v25.2.0 | :x:| :x: | Illustrator works well but the Zii 6.x patch (with Big Sur) is really screwing up ... the application crashes right away. The Zii 6.x patch needs updating.
 Illustrator | 2021 v25.3 | :white_check_mark:| :white_check_mark: | **Apple Sillicon M1 works** Works, no additional command lines.
 Illustrator | 2021 v25.3.1 | :white_check_mark: | :white_check_mark: | **Apple Sillicon M1 works** Works, no additional command lines.
-:new: Illustrator | 2021 v25.4 | :question: | :white_check_mark: | **Apple Sillicon M1 works** ???
+:new: Illustrator | 2021 v25.4 | :white_check_mark: | :white_check_mark: | **Apple Sillicon M1 works** Works, no additional command lines.
 InCopy | 2021 v16.0.2 | :white_check_mark: | :x: | Works perfectly, no additional command lines.
 InCopy | 2021 v16.1 | :white_check_mark: | :x: | Works perfectly, no additional command lines.
 InCopy | 2021 v16.2 | :white_check_mark: | :x: | Works perfectly, no additional command lines.
@@ -173,31 +173,30 @@ Lightroom Classic | v10.2 | :interrobang: | :x: | Works perfectly, **but Camera 
 Lightroom Classic | v10.3 | :interrobang: | :white_check_mark: | **Apple Sillicon M1 works** Works perfectly, **but Camera Raw doesn't work. Perhaps Zii do not work, we do not know !** **Block Little Snitch or LuLu.**.
 Media Encoder | 2021 v15.1 | :white_check_mark: | :x: | **No patch** Works perfectly, no additional command lines.
 Media Encoder | 2021 v15.2 | :white_check_mark: | :x: | **No patch** Works perfectly, no additional command lines.
-:new: Media Encoder | 2021 v15.4 | :question: | :x: | ???
+:new: Media Encoder | 2021 v15.4 | :white_check_mark: | :x: | **No patch** Works perfectly, no additional command lines.
 Photoshop | 2020 v21.2.3, v21.2.5, v21.2.10| :white_check_mark: | :x: | Works.
 Photoshop | 2021 v22.0, **v22.4.2** | :x::interrobang: | :white_check_mark: | **Apple Sillicon M1 works** **Zii doesn't work. In addition, Intel inevitably works (Catalina, Big Sur, Monterey, etc.) and AMD (Ryzen, Threadripper) is failing at full speed! (nonstop crash)** Works  ... but it crashes all the time. We need to do more research for a patch. **No patch** Intel CPU : Works a charm. AMD CPU : Launch properly but crash all times.
-:new: Photoshop | 2021 **v22.4.3** | :question: | :white_check_mark: | **Apple Sillicon M1 works** ???
+:new: Photoshop | 2021 **v22.4.3** | :x::interrobang: | :white_check_mark: | **Apple Sillicon M1 works** ; Works, but when brushing or texting, no problem but when filters are put there, it crashes ! 
 Prelude | 2020 v9.0.3 | :white_check_mark: | :x: | Works.
 Prelude | 2021 v10.0 | :white_check_mark: | :x: | **No patch** Works.
-:new: Prelude | 2021 v10.1 | :question: | :x: | ???
+:new: Prelude | 2021 v10.1 | :white_check_mark: | :x: | **No patch** Works.
 Premiere Pro | 2021 v15.1 | :white_check_mark: | :x: | **No patch** Works perfectly, no additional command lines.
 Premiere Pro | 2021 v15.2 | :white_check_mark: | :x: | **No patch** Works perfectly, no additional command lines.
-:new: Premiere Pro | 2021 v15.4 | :question: | :white_check_mark: | **Apple Sillicon M1 works** ???
+:new: Premiere Pro | 2021 v15.4 | :white_check_mark: | :white_check_mark: | **Apple Sillicon M1 works** Works perfectly, no additional command lines.
 Premiere Rush | v1.5.54 | :white_check_mark: | :x: | **No patch** Works.
 Premiere Rush | v1.5.58 | :white_check_mark: | :white_check_mark: | **No patch** Works.
 Premiere Rush | v1.5.61 | :white_check_mark: | :white_check_mark: | **No patch** Works.
 Substance 3D Designer | v11.2 | :white_check_mark: | :x: | **No patch** Works.
-:new: Substance 3D Designer | v11.2.1 | :question: | :x: | ???
+:new: Substance 3D Designer | v11.2.1 | :white_check_mark: | :x: | **No patch** Works.
 Substance 3D Painter | v7.2 | :x: | :x: | Crash ! 
 Substance 3D Painter | v7.2.1 | :x: | :x: | Crash ! 
-:new: Substance 3D Painter | v7.2.2 | :question: | :x: | ???
+:new: Substance 3D Painter | v7.2.2 | :x: | :x: | Crash !
 Substance 3D Sampler | v3.0 | :white_check_mark: | :x: | **No patch** Works.
-:new: Substance 3D Sampler | v3.0.1 | :question: | :x: | 
-Substance 3D Stager | v1.0 | :x: | :x: | Launches but turns in a vacuum, without ever stopping ...
-:new: Substance 3D Stager | v1.0.1 | :question: | :x: | ???
+:new: Substance 3D Sampler | v3.0.1 | :white_check_mark: | :x: | **No patch** Works.
+:new: Substance 3D Stager | v1.0, **v1.0.1** | :white_check_mark: | :x: | **Problem Zii** : Copy the "vcontrol.bundle" in Zii 6.1.3 to the desktop:```Zii\ 2021\ 6.1.3.app/Contents/Resources/vcontrol.bundle``` Then rename it AdobeBIB.framework and replace it in ```/Applications/Adobe\ Substance\ 3D\ Stager/Adobe\ Substance\ 3D\ Stager.app/Contents/Frameworks/```.
 XD | v41.0.12 | :white_check_mark: | :x: | **Block Little Snitch or LuLu.** Works, no additional command lines.
 XD | v41.1.12 | :white_check_mark: | :x: | **Block Little Snitch or LuLu.** Works, no additional command lines.
-:new: XD | v42.0.22 | :white_check_mark: | :white_check_mark: | **Apple Sillicon M1 works** ???
+:new: XD | v42.0.22 | :white_check_mark: | :white_check_mark: | **Apple Sillicon M1 works** ; **Block Little Snitch or LuLu.** Works, no additional command lines.
 > Maybe the others need to be well controlled to be sure. Comments should help me! Thank you !
 
 ### Notes
