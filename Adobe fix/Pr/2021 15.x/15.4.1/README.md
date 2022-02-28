@@ -1,4 +1,4 @@
-##Adobe Premiere Pro 15.4.1 AMD fix##
+## Adobe Premiere Pro 15.4.1 AMD fix
 
 Just replace AEFilterMorphCut into:
 /Applications/Adobe Premiere Pro 2021/Adobe Premiere Pro 2021.app/Contents/Plug-Ins/Common/AEFilterMorphCut.bundle/Contents/MacOS

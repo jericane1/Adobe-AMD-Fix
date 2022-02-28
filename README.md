@@ -1,6 +1,20 @@
-## Adobe Crash Fix for AMD
+# Adobe Crash Fix for AMD
+I. Patched *via* Intel MKL Library
 
-### Instructions
+**Only for Adobe Photoshop, After Effects, Premiere Pro**
+
+_Thanks to website macos86.it, above all tomnic & fabiosun_
+
+1. During installation, copy the cracker U2B.
+2. Patched according to installation type :
+
+Adobe products | Version | Files to modify | Comments
+---------------|---------|-----------------|---------
+After Effects | 2021 v18.2 | Libraries to be patched: 1) libiomp5.dylib 2) libmkl_core.1.dylib 3) libmkl_avx512.1.dylib |
+Photoshop | 2021 v18.2.1 | Library / plugin to be patched: 1) libmkl_core.dylib 2) Adaptive Wide angle.plugin | 
+Premiere Pro | 2020 v | Effects / plugins to be patched: 1) Stabiliser 2) Rolling Shutter 3) Morph Cut|
+
+II. Too old : Instructions for Adobe Zii ###
 
 1. Install needed Adobe apps from Adobe Creative Cloud.
 
