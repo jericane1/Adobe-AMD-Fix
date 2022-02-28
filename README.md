@@ -1,20 +1,23 @@
 # Adobe Crash Fix for AMD
-I. Patched *via* Intel MKL Library
+## I. Patched *via* Intel MKL Library ##
 
 **Only for Adobe Photoshop, After Effects, Premiere Pro**
 
 _Thanks to website macos86.it, above all tomnic & fabiosun_
 
-1. During installation, copy the cracker U2B.
+Prerequisites : 1) SIP Disabled 2) You need  [CodeSigner version 0.9.4 beta 5](https://github.com/jericane1/Adobe-AMD-Fix/blob/516f20ecaae2f2fd3080807ae59a67e901e0a6f5/CodeSigner%20version%200.9.4%20beta%205.dmg), to validate Adobe's digital signature.
+
+1. A link, in python, https://github.com/Drovosek01/adobe-packager allows to download all Adobe Creative Cloud software
+1. During installation, a crack (U2B, Adobe Zii) may come patched the installation.
 2. Patched according to installation type :
 
 Adobe products | Version | Files to modify | Comments
 ---------------|---------|-----------------|---------
-After Effects | 2021 v18.2 | Libraries to be patched: 1) libiomp5.dylib 2) libmkl_core.1.dylib 3) libmkl_avx512.1.dylib |
-Photoshop | 2021 v18.2.1 | Library / plugin to be patched: 1) libmkl_core.dylib 2) Adaptive Wide angle.plugin | 
-Premiere Pro | 2020 v | Effects / plugins to be patched: 1) Stabiliser 2) Rolling Shutter 3) Morph Cut|
+After Effects | 2021 v18.4.1 ; 2022 v22.1.2, v23.3 build 47 | Libraries to be patched: 1) libiomp5.dylib 2) libmkl_core.1.dylib 3) libmkl_avx512.1.dylib |
+Premiere Pro | 2021 v15.4.1 ; 2022 v22.1.2 | Effects / plugins to be patched: 1) Stabiliser 2) Rolling Shutter 3) Morph Cut|
+Photoshop | 2021 v22.5.1 ; 2022 v23.1,v23.2,v23.2.1 | Library / plugin to be patched: 1) libmkl_core.dylib 2) Adaptive Wide angle.plugin | 
 
-II. Too old : Instructions for Adobe Zii ###
+## II. Too old : Instructions for Adobe Zii ##
 
 1. Install needed Adobe apps from Adobe Creative Cloud.
 
