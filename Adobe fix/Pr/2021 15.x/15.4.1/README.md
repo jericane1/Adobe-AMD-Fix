@@ -10,3 +10,5 @@ Just replace :
 
 - AEFilterRollingShutter in:
 `/Applications/Adobe Premiere Pro 2021/Adobe Premiere Pro 2021.app/Contents/Plug-Ins/Common/AEFilterRollingShutter.bundle/Contents/MacOS`
+
+**Thanks avatar tomnic to macos86.it**
